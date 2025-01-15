@@ -1,53 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ObjectSet ExportMode="Special" Note="TypesFirst" SemanticsFilter="Special" Version="5.0.3.117">
-  <MetaInformation>
-    <ExportMode Value="Special"/>
-    <SemanticsFilter Value="None"/>
-    <RuntimeVersion Value="5.0.3.117"/>
-    <SourceVersion Value="5.0.3.117"/>
-    <ServerFullPath Value="/Server 1"/>
-  </MetaInformation>
-  <Types>
-    <ObjectType Name            = "udt.ja6656ml5v6udl27fyrv6hfuqe.hbuel3d5gtuo3i7i5pwyclkjnrfyek4r"
-                DisplayName     = ""
-                Description     = ""
-                Base            = "tgml.TGML"
-                Icon            = ""
-                Abstract        = "0"
-                Implements      = ""
-                DefaultProperty = ""
-                Version         = "1"
-                >
-      <PropertyTab Name = "BASIC">
-        <PropertyGroup Name = "ConfigurationSettings">
-          <Parameter Name                  = "FILE"
-                     DisplayName           = "File"
-                     Description           = ""
-                     Visibility            = "Normal"
-                     Optional              = "0"
-                     ReadOnly              = "0"
-                     Static                = "1"
-                     RTWriteable           = "0"
-                     Unique                = "No"
-                     Copy                  = "0"
-                     Nullable              = "0"
-                     >
-              <Type Configurable = "No" Value = "tgml.TGMLFile"/>
-              <Unit Configurable = "No" Value = "0x10001"/>
-              <InitValue Null="0">
-              <FileContents Size="8608"><![CDATA[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]]>
-              </FileContents>
-            </InitValue>
-          </Parameter>
-        </PropertyGroup>
-      </PropertyTab>
-
-
-    </ObjectType>
-
-  </Types>
-<ExportedObjects>
-  <OI NAME="resize" TYPE="udt.ja6656ml5v6udl27fyrv6hfuqe.hbuel3d5gtuo3i7i5pwyclkjnrfyek4r"/>
-</ExportedObjects>
-
-</ObjectSet>
+<Tgml ComponentCounter="68" GridSize="10" Height="1000"
+    UseGlobalScripts="True" Width="1500">
+    <Component Clip="False" ContentHeight="207.09" ContentWidth="117.95"
+        Height="207.09" Left="417.29" Name="arrow_1" Top="134.73" Width="117.95">
+        <Component Clip="True" ContentHeight="60.0" ContentWidth="40.0"
+            Height="150.94011783599854" Id="" Left="0.0" Name=""
+            Top="18.72003944824246" Width="117.94866561889648">
+            <Polygon Fill="#FFFFFF" Opacity="1.0"
+                Points="27.0,5.0 27.0,41.0 33.0,41.0 20.0,60.0 7.0,41.0 13.0,41.0 13.0,5.0"
+                Stroke="None" StrokeDashArray="0.0" StrokeWidth="1.0">
+                <LinearGradient Attribute="Fill" EndPoint="0,1"
+                    SpreadMethod="Pad" StartPoint="0.0,0.0">
+                    <GradientStop Color="#01FFFFFF" Offset="0"/>
+                    <GradientStop Color="#42B4E6" Offset="1">
+                        <Expose ExposedAttribute="Color" Name="Arrow Colour"/>
+                    </GradientStop>
+                </LinearGradient>
+            </Polygon>
+            <Metadata CompID="A6001" Version="180302">
+                <Expose ExposedAttribute="CompID" Name="CompID"/>
+                <Expose ExposedAttribute="Version" Name="Version"/>
+            </Metadata>
+            <Animate Animation="Start" Attribute="Opacity"
+                AutoReverse="True" CalcMode="Linear" Duration="0.75"
+                From="1" To="0"/>
+        </Component>
+        <Component Clip="True" ContentHeight="60.0" ContentWidth="40.0"
+            Height="150.94011783599854" Id="" Left="0.0" Name=""
+            Top="56.15114601562527" Width="117.94866561889648">
+            <Polygon Fill="#FFFFFF" Opacity="1.0"
+                Points="27.0,5.0 27.0,41.0 33.0,41.0 20.0,60.0 7.0,41.0 13.0,41.0 13.0,5.0"
+                Stroke="None" StrokeDashArray="0.0" StrokeWidth="1.0">
+                <LinearGradient Attribute="Fill" EndPoint="0,1"
+                    SpreadMethod="Pad" StartPoint="0.0,0.0">
+                    <GradientStop Color="#01FFFFFF" Offset="0"/>
+                    <GradientStop Color="#42B4E6" Offset="1">
+                        <Expose ExposedAttribute="Color" Name="Arrow Colour"/>
+                    </GradientStop>
+                </LinearGradient>
+            </Polygon>
+            <Metadata CompID="A6001" Version="180302">
+                <Expose ExposedAttribute="CompID" Name="CompID"/>
+                <Expose ExposedAttribute="Version" Name="Version"/>
+            </Metadata>
+            <Animate Animation="Start" Attribute="Opacity"
+                AutoReverse="True" CalcMode="Linear" Duration="0.65"
+                From="1" To="0"/>
+        </Component>
+        <Component Clip="True" ContentHeight="60.0" ContentWidth="40.0"
+            Height="150.94011783599854" Id="" Left="0.0" Name=""
+            Top="0.004486164551054" Width="117.94866561889648">
+            <Polygon Fill="#FFFFFF" Opacity="1.0"
+                Points="27.0,5.0 27.0,41.0 33.0,41.0 20.0,60.0 7.0,41.0 13.0,41.0 13.0,5.0"
+                Stroke="None" StrokeDashArray="0.0" StrokeWidth="1.0">
+                <LinearGradient Attribute="Fill" EndPoint="0,1"
+                    SpreadMethod="Pad" StartPoint="0.0,0.0">
+                    <GradientStop Color="#01FFFFFF" Offset="0"/>
+                    <GradientStop Color="#42B4E6" Offset="1">
+                        <Expose ExposedAttribute="Color" Name="Arrow Colour"/>
+                    </GradientStop>
+                </LinearGradient>
+            </Polygon>
+            <Metadata CompID="A6001" Version="180302">
+                <Expose ExposedAttribute="CompID" Name="CompID"/>
+                <Expose ExposedAttribute="Version" Name="Version"/>
+            </Metadata>
+            <Animate Animation="Start" Attribute="Opacity"
+                AutoReverse="True" CalcMode="Linear" Duration="0.55"
+                From="1" To="0"/>
+        </Component>
+        <Component Clip="True" ContentHeight="60.0" ContentWidth="40.0"
+            Height="150.94011783599854" Id="" Left="0.0" Name=""
+            Top="37.435592731933866" Width="117.94866561889648">
+            <Polygon Fill="#FFFFFF" Opacity="1.0"
+                Points="27.0,5.0 27.0,41.0 33.0,41.0 20.0,60.0 7.0,41.0 13.0,41.0 13.0,5.0"
+                Stroke="None" StrokeDashArray="0.0" StrokeWidth="1.0">
+                <LinearGradient Attribute="Fill" EndPoint="0,1"
+                    SpreadMethod="Pad" StartPoint="0.0,0.0">
+                    <GradientStop Color="#01FFFFFF" Offset="0"/>
+                    <GradientStop Color="#42B4E6" Offset="1">
+                        <Expose ExposedAttribute="Color" Name="Arrow Colour"/>
+                    </GradientStop>
+                </LinearGradient>
+            </Polygon>
+            <Metadata CompID="A6001" Version="180302">
+                <Expose ExposedAttribute="CompID" Name="CompID"/>
+                <Expose ExposedAttribute="Version" Name="Version"/>
+            </Metadata>
+            <Animate Animation="Start" Attribute="Opacity"
+                AutoReverse="True" CalcMode="Linear" Duration="0.45"
+                From="1" To="0"/>
+        </Component>
+    </Component>
+</Tgml>
