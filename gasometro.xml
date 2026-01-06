@@ -1,4 +1,71 @@
-<Instance Name="On Peak"
-  Definition="[Work week = Weekday] AND (([Hour &gt; 17] OR ([Hour = 17] AND [Minute &gt;= 30])) AND ([Hour &lt; 20] OR ([Hour = 20] AND [Minute &lt; 30])) )"
-  InstanceID="1"
-/>
+if Month >= January then
+   a_pagar_1 = tarifa_mes_1 * consumo_mes_1
+else 
+   a_pagar_1 = 0 
+endif 
+
+if Month >= February then
+   a_pagar_2 = tarifa_mes_2 * consumo_mes_2
+else 
+   a_pagar_2 = 0 
+endif 
+
+if Month >= March then
+   a_pagar_3 = tarifa_mes_3 * consumo_mes_3
+else 
+   a_pagar_3 = 0 
+endif 
+
+if Month >= April then
+   a_pagar_4 = tarifa_mes_4 * consumo_mes_4
+else 
+   a_pagar_4 = 0 
+endif 
+
+if Month >= May then
+   a_pagar_5 = tarifa_mes_5 * consumo_mes_5
+else 
+   a_pagar_5 = 0 
+endif 
+
+if Month >= June then
+   a_pagar_6 = tarifa_mes_6 * consumo_mes_6
+else 
+   a_pagar_6 = 0 
+endif 
+
+if Month >= July then
+   a_pagar_7 = tarifa_mes_7 * consumo_mes_7
+else 
+   a_pagar_7 = 0 
+endif 
+
+if Month >= August then
+   a_pagar_8 = tarifa_mes_8 * consumo_mes_8
+else 
+   a_pagar_8 = 0 
+endif 
+
+if Month >= September then
+   a_pagar_9 = tarifa_mes_9 * consumo_mes_9
+else 
+   a_pagar_9 = 0 
+endif 
+
+if Month >= October then
+   a_pagar_10 = tarifa_mes_10 * consumo_mes_10
+else 
+   a_pagar_10 = 0 
+endif 
+
+if Month >= November then
+   a_pagar_11 = tarifa_mes_11 * consumo_mes_11
+else 
+   a_pagar_11 = 0 
+endif 
+
+if Month >= December then
+   a_pagar_12 = tarifa_mes_12 * consumo_mes_12
+else 
+   a_pagar_12 = 0 
+endif 
